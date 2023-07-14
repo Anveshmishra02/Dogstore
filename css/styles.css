@@ -1,0 +1,218 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+    font-size: larger;
+}
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto";
+}
+
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+    font-family: "Roboto";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* sections */
+
+.coloured-section{
+
+    background-color: #4c7cff;
+    color: #fff;
+}
+
+.white-section{
+
+    background-color: #fff;
+}
+/*Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    /*top=0, left right=0,4.5rem=bottom*/
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    /* top and bottom=0,left anf right =18px*/
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+
+}
+
+/* download buttons */
+.download-button {
+    margin: 10% 3% 5% 0%;
+    /* top-right-left-bottom*/
+}
+
+
+/* title section */
+
+
+#title {
+   
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features section */
+#features {
+
+   
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.features-box {
+
+    padding: 5%;
+}
+
+.icon {
+    color: #9ac4f0;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #4c7cff;
+}
+
+/* testimonials section */
+
+#testimonials {
+
+ background-color: #4c7cff;
+    
+
+}
+
+
+.testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+
+
+#press {
+    background-color: #4c7cff;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    /*top-L/r-bottom */
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+
+    /* applies 100px padding from all four sides matlab
+    screen ke charo side se */
+}
+
+.header-dog {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    /* here we give each card space from each other 
+    also top and bottom*/
+}
+
+/* CTA SECTION */
+
+
+
+
+/* footer section */
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+
+    #title {
+        text-align: center;
+
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
